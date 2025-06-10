@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-2 mb-6">
             <div className="header">
-            <img src="CineSlice0/public/cineslice-logo.jpg" alt="logo"/>
+            <img src="https://images.app.goo.gl/7LLJfvYe41PoMi888" alt="logo"/>
 
             </div>
             </div>
