@@ -11,9 +11,11 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
+    
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
+  base:process.env.VITE_BASE_PATH || "/CineSlice0",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
