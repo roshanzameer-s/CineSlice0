@@ -5,20 +5,26 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white py-20 px-6">
+      {/* Background overlay */}
       <div className="absolute inset-0 bg-black/20"></div>
+      {/* Container */}
       <div className="relative max-w-7xl mx-auto">
+        {/* Logo and headline */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-2 mb-6">
             <Image
-              src="../public/cineslice-logo.jpg"
+              src="/cineslice-logo.png"
               alt="CineSlice Logo"
               width={200}
               height={60}
+              className="object-contain"
+              priority
             />
           </div>
           <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
             Empowering Futures Through Quality Education
           </p>
+          {/* Stats */}
           <div className="flex flex-wrap justify-center gap-6 mb-12">
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3">
               <Trophy className="w-5 h-5 text-yellow-400" />
@@ -33,6 +39,7 @@ const Hero = () => {
               <span className="text-lg font-semibold">Founded 2021</span>
             </div>
           </div>
+          {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
@@ -50,6 +57,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      {/* Bottom gradient */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-slate-50 to-transparent"></div>
     </section>
   );
