@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-2 mb-6">
             <Image
-              src="/cineslice-logo.jpg"
+              src="../public/cineslice-logo.jpg"
               alt="CineSlice Logo"
               width={200}
               height={60}
