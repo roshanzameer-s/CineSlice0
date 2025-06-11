@@ -7,6 +7,7 @@ const Founder = () => {
     { name: "Co-Founder", role: "Bhavya Sree", color: "from-pink-500 to-rose-500", image: "/bhavya.png" },
     { name: "Chief Technology Officer", role: "Roshan Zameer", color: "from-purple-500 to-pink-500", image: "/roshan.jpg" },
     { name: "Cheif Operating Officer", role: "Mohith", color: "from-green-500 to-emerald-500", image: "/mohith.jpg" },
+    { name: "Cheif Financial Officer", role: "Rajesh", color: "from-pink-500 to-rose-500", image: "/mohith.jpg" },
     { name: "Project Manager", role: "Balaji", color: "from-orange-500 to-red-500", image: "/balaji.jpg" },
     { name: "Head of Growth", role: "Arshad", color: "from-indigo-500 to-purple-500", image: "/arshad.jpg" },
     { name: "Social Media Manager", role: "Sai Lalith", color: "from-blue-500 to-cyan-500", image: "/sai-lalith.jpg" },

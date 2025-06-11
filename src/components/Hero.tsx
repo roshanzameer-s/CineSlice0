@@ -51,12 +51,13 @@ const Hero = () => {
               Start Your Journey
             </Button>
             <Button
-              variant="outline"
-              size="lg"
-              className="border-2 border-yellow text-blue hover:bg-grey hover:text-pink-900 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300"
-            >
-              Explore Courses
-            </Button>
+  variant="outline" // You may need to remove this if your UI library overrides background
+  size="lg"
+  className="border-2 border-yellow-400 bg-yellow-400 hover:bg-yellow-500 text-blue-900 hover:text-pink-900 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300"
+>
+  Explore Courses
+</Button>
+
           </div>
         </div>
       </div>
