@@ -1,6 +1,6 @@
-
+import Image from "next/image";
+import { Trophy, Users, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { GraduationCap, Users, Trophy, Star } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -9,11 +9,13 @@ const Hero = () => {
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-2 mb-6">
-            <div className="header">
-            <img src="cineslice-logo" alt="logo"/>
-
-            </div>
-            </div>
+            <Image
+              src="/cineslice-logo.png"
+              alt="CineSlice Logo"
+              width={200}
+              height={60}
+            />
+          </div>
           <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
             Empowering Futures Through Quality Education
           </p>
@@ -32,10 +34,17 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg transition-all duration-300 transform hover:scale-105">
+            <Button
+              size="lg"
+              className="bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg transition-all duration-300 transform hover:scale-105"
+            >
               Start Your Journey
             </Button>
-            <Button variant="outline" size="lg" className="border-2 border-white text-black hover:bg-white hover:text-blue-900 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300">
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300"
+            >
               Explore Courses
             </Button>
           </div>
