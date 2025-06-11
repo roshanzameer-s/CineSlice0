@@ -12,14 +12,17 @@ const Hero = () => {
         {/* Logo and headline */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-2 mb-6">
+            {/* Try both Image and img for debugging */}
             <Image
               src="/cineslice-logo.png"
               alt="CineSlice Logo"
               width={200}
               height={60}
               className="object-contain"
-              priority
+              unoptimized // Add this if image optimization is causing issues
             />
+            {/* Uncomment to test with regular img */}
+            {/* <img src="/cineslice-logo.png" alt="CineSlice Logo" className="w-[200px] h-[60px]" /> */}
           </div>
           <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
             Empowering Futures Through Quality Education
