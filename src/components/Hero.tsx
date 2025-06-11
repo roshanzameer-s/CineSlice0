@@ -16,8 +16,8 @@ const Hero = () => {
             <Image
               src="/cineslice-logo.png"
               alt="CineSlice Logo"
-              width={200}
-              height={60}
+              width={400}
+              height={100}
               className="object-contain"
               unoptimized // Add this if image optimization is causing issues
             />
